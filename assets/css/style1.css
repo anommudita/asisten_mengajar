@@ -1,0 +1,142 @@
+video,iframe{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-position: center; */
+    object-position: center;
+    object-fit: cover;
+    margin: 0 auto;
+    display: flex;
+}
+
+div.hero-slide-item.swiper-slide{
+    width:unset;
+    height:100vh;
+}
+
+.bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-47deg, #07070798 0%, #00000098 100%);
+    z-index: 2;
+}
+
+h2.title{
+    padding-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.mobile-menu-hamburger{
+    visibility: visible;
+}
+
+.single-project-slide{
+    /* height: 100vh; */
+}
+
+.fit-image.gambar{
+    height: 60vh;
+}
+
+/* .space{
+    width: 100vw;
+    height: 140px;
+    background-color: black;
+} */
+
+.title.text-center{
+    font-size: 60px;
+}
+
+.col-lg-6.mb-10.col-md-12.order-2.order-lg-1{
+    float: right;
+}
+
+.krti{
+    width: 20rem;
+}
+
+.img{
+    width: 80px;
+}
+
+div.log-about{
+    object-position: center;
+    object-fit: cover;
+}
+.about_log{
+    width: 140px;
+}
+
+.main-menu.main-menu-black ul li a{
+    /* text-shadow: 1px 1px 0px white; */
+    color: '#fff !important';
+}
+
+.section.contact-content-wrapper{
+    position: static;
+    padding-top: 50px;
+}
+
+.plane-img{
+    width: 30rem;
+}
+
+/* VERSION DEKSTOP */
+@media (min-width: 768px) {
+    .mobile-menu-hamburger{
+        visibility:collapse;
+        content: none;
+        display: none;
+    }
+    
+    .row.align-items-center .col-lg-2.col-md-2.col-6{
+        content: none;
+        display: none;
+    }
+
+    .main-menu-language-wrapper{
+        float: right;
+    }
+
+    .col-lg-8.col-md-7.d-none.d-md-block{
+        float: right;
+        /* margin-left: 15%; */
+    }
+}
+
+@media(max-width: 768px){
+    .plane-img{
+        width: 20rem;
+    }
+
+}
+
+.jargon{
+    margin-top: -2rem;
+}
+#loader{
+    bottom: 0;
+    z-index: 999;
+    transition: 1s;
+}
+.img-loader{
+    width: 10rem;
+    height: 10rem;
+    animation: 4s ease-out 1s infinite reverse both running loader;
+    transition: 1s;
+}
+@keyframes loader {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.active-link1{
+    color: #00FFFF !important;
+}
+
